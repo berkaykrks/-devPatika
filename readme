@@ -1,0 +1,25 @@
+Insertion Sort Aşamaları:
+
+Verilen dizi: [22, 27, 16, 2, 18, 6]
+
+[22] (ilk eleman zaten sıralı olduğu için bir şey yapmaya gerek yok)
+[22, 27] (27, 22'den büyük olduğu için yer değiştirme gerekir)
+[16, 22, 27] (16, 22'den küçük olduğu için 22'nin önüne yerleştirilir)
+[2, 16, 22, 27] (2, 16 ve 22'den küçük olduğu için hepsinin önüne yerleştirilir)
+[2, 16, 18, 22, 27] (18, 16'dan büyük ve 22'den küçük olduğu için araya yerleştirilir)
+[2, 6, 16, 18, 22, 27] (6, 2'den büyük ve 16'dan küçük olduğu için araya yerleştirilir)
+Big-O Gösterimi: O(n^2) (Insertion Sort'un zaman karmaşıklığı)
+
+18 sayısının kapsamı:
+
+Average case: Aradığımız sayının ortada olması -> Ortalama durumda O(n/2) sıralı elemandan geçiş gerekeceği için aradığımız sayı 18 bu duruma girer.
+Worst case: Aradığımız sayının sonda olması -> En kötü durumda O(n) geçiş gerekeceği için aradığımız sayı 18 bu duruma girer.
+Best case: Aradığımız sayının dizinin en başında olması -> En iyi durumda O(1) geçiş gerekeceği için aradığımız sayı 18 bu duruma girmez.
+Selection Sort Aşamaları (ilk 4 adım):
+
+Verilen dizi: [7, 3, 5, 8, 2, 9, 4, 15, 6]
+
+[2, 3, 5, 8, 7, 9, 4, 15, 6] (Minimum elemanı bul ve ilk elemanla yer değiştir)
+[2, 3, 4, 8, 7, 9, 5, 15, 6] (Minimum elemanı bul ve ikinci elemanla yer değiştir)
+[2, 3, 4, 5, 7, 9, 8, 15, 6] (Minimum elemanı bul ve üçüncü elemanla yer değiştir)
+[2, 3, 4, 5, 6, 9, 8, 15, 7] (Minimum elemanı bul ve dördüncü elemanla yer değiştir)

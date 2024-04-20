@@ -23,3 +23,17 @@ Verilen dizi: [7, 3, 5, 8, 2, 9, 4, 15, 6]
 [2, 3, 4, 8, 7, 9, 5, 15, 6] (Minimum elemanı bul ve ikinci elemanla yer değiştir)
 [2, 3, 4, 5, 7, 9, 8, 15, 6] (Minimum elemanı bul ve üçüncü elemanla yer değiştir)
 [2, 3, 4, 5, 6, 9, 8, 15, 7] (Minimum elemanı bul ve dördüncü elemanla yer değiştir)
+
+Merge Sort Aşamaları:
+
+Verilen dizi: [16, 21, 11, 8, 12, 22]
+
+[16, 21, 11], [8, 12, 22] (Diziyi ikiye böl)
+[16, 21], [11], [8, 12], [22] (Her bir alt diziyi aynı işleme tabi tut)
+[16], [21], [11], [8], [12], [22] (Her alt dizi tek elemanlı olana kadar bölmeye devam et)
+[16, 21], [11], [8, 12], [22] (Alt dizileri birleştir)
+[11, 16, 21], [8, 12, 22] (Alt dizileri birleştir)
+[8, 11, 12, 16, 21, 22] (Tüm alt dizileri birleştir)
+Big-O Gösterimi: O(n log n) (Merge Sort'un zaman karmaşıklığı)
+
+Merge Sort'un Big-O gösterimi O(n log n) olduğundan, n elemanlı bir dizinin sıralanması için ortalama ve en kötü durumda n log n adım gereklidir.

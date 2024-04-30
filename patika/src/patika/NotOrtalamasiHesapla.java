@@ -27,7 +27,7 @@ public class NotOrtalamasiHesapla {
        
         double ortalama = (matematik + fizik + kimya + turkce + tarih + muzik) / 6.0;
 
-     
+        //eklendi
         String durum = ortalama >= 60 ? "Sınıfı Geçti" : "Sınıfta Kaldı";
         System.out.println("Ortalamanız: " + ortalama);
         System.out.println("Durum: " + durum);

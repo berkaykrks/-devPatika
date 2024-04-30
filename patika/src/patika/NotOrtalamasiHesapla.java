@@ -6,7 +6,6 @@ public class NotOrtalamasiHesapla {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        // Kullanıcıdan sınav puanlarını al
         System.out.println("Matematik sınav puanını girin:");
         int matematik = scanner.nextInt();
 
@@ -25,10 +24,10 @@ public class NotOrtalamasiHesapla {
         System.out.println("Müzik sınav puanını girin:");
         int muzik = scanner.nextInt();
 
-        // Not ortalamasını hesapla
+       
         double ortalama = (matematik + fizik + kimya + turkce + tarih + muzik) / 6.0;
 
-        // Sınıfı geçme durumunu kontrol et ve ekrana bastır
+     
         String durum = ortalama >= 60 ? "Sınıfı Geçti" : "Sınıfta Kaldı";
         System.out.println("Ortalamanız: " + ortalama);
         System.out.println("Durum: " + durum);

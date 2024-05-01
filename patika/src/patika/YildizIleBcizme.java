@@ -1,3 +1,4 @@
+package patika;
 
 public class YildizIleBcizme {
 
